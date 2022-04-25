@@ -1,0 +1,327 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    height: 100%;
+}
+
+header {
+    min-height: 800px;
+    background-color:#F9F6F1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'montserratregular', Arial, Helvetica, sans-serif;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.section {
+    width: 100%;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/*===================footer=====================*/
+
+.section_header {
+    min-height: 90px;
+    /*position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 100;*/
+}
+
+ul {
+    list-style: none;
+}
+
+.header_link {
+    text-decoration: none;
+    margin-right: 35px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding-right: 5px;
+    position: relative;
+}
+
+.header_list {
+    display: flex;
+    margin-top: 61px;
+    margin-bottom: 172px;
+}
+
+.header_icon {
+    position: absolute;
+    right: -5px;
+    top: 4px;
+}
+
+.basket_list {
+    display: flex;
+    margin-top: 54px;
+}
+
+.basket_item1 {
+    padding-right: 15px;
+}
+
+.basket_item2 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.logo {
+    display: flex;
+    margin-top: 50px;
+}
+
+.logo_p {
+    padding-left: 20px;
+    padding-top: 9px;
+    padding-bottom: 7px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.container_header {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*===================section banner=========================*/
+
+/*.section_banner {
+    margin: 90px;
+}*/
+
+.slider_item {
+    display: flex;
+    padding-top: 166px;
+    justify-content: space-between;
+    min-height: 564px;
+    background: url('/img/cross.png') no-repeat right center;
+}
+
+.slider_text {
+    font-size: 30px;
+    padding-bottom: 29px;
+}
+
+.slider_big-text {
+    font-weight: bold;
+    font-size: 55px;
+    text-transform: uppercase;
+    padding-bottom: 52px;
+}
+
+.slider_price {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.price_old {
+    text-align: right;
+    font-size: 24px;
+    text-decoration-line: line-through;
+    margin-bottom: 14px;
+}
+
+.price_new {
+    font-size: 42px;
+    color: #d84033;
+}
+
+.slider_wrapper {
+    position: relative;
+}
+
+.slider_button {
+    position: absolute;
+    top: 50%;
+    border: none;
+    background: #F9F6F1;
+}
+
+.button-prev {
+    left: 250px;
+}
+
+.button-next {
+    right: 250px;
+}
+
+/*=============section delivery=================*/
+
+.section_delivery {
+    background: #212121;
+    color: #fff;
+}
+
+.container_delivery {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 69px;
+}
+
+.delivery_tittle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+}
+
+.delivery_text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.delivery_price {
+    font-weight: normal;
+}
+
+/*==============================================*/
+
+/*===============section dress==================*/
+
+.dress_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dress_item {
+    border: 1px solid black;
+    width: 274.5px;
+    height: 236px;
+    text-align: right;
+    position: relative;
+}
+
+.dress_item--grey {
+    background-color: #f4f4f4;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.dress_item--cream {
+    background-color: #f9f6f1;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.tshirt {
+    width: 182px;
+    height: 208px;
+} 
+
+/*===============section new====================*/
+
+.container_new {
+    text-align: center;
+    padding-bottom: 90px;
+    padding-top: 90px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+.new_h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.catalog_item {
+    border: 3px solid #D7B399;
+    padding: 22px;
+    text-align: center;
+}
+
+.catalog_tittle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 112px;
+}
+
+.catalog_price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D7B399;
+    margin-top: 15px;
+}
+
+.new_btn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: #D7B399;
+    padding: 18px 35px 17px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.new_btn:hover {
+    color: orangered;
+    background: powderblue;
+}
+
+.new_btn:hover path {
+    fill: orangered;
+}
